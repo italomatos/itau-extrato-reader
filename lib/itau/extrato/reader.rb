@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require_relative "reader/version"
+require_relative "reader/itau/parser"
+require_relative "reader/itau/item"
 
 module Itau
   module Extrato
